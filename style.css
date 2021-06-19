@@ -1,0 +1,68 @@
+.container::before{
+    content: "";
+    position: absolute;
+    background:url(circle.png) no-repeat;
+    height:23%;
+    width: 34%;
+}
+
+
+#container{
+    position: relative;
+    margin: auto;
+    background: url(images.png) no-repeat;
+    /* background: url(circle.png) no-repeat; */
+    height: 32vw;
+    width: 31vw;
+    background-size: 100%;
+
+    /* position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw; 
+    background: url(images.png) no-repeat;
+    background-size: 100%; */
+}
+
+#hr,#sec,#min{
+    position: absolute;
+    background: black;
+    border-radius: 10px; 
+    transform-origin: bottom;
+
+
+
+}
+#hr{
+    opacity: 0.7;
+    left: 15.2vw;
+    height: 7vw;
+    width: 0.8vw;
+    top: 10vw;
+    /* display: none; */
+}
+#min{
+    opacity: 0.8;
+    left: 15.5vw;
+    height: 11vw;
+    width: 2%;
+    top: 6vw;
+    /* display: none; */
+}
+
+#sec{
+    opacity: 0.8;
+    left: 15.5vw;
+    height: 12vw;
+    width: 0.2vw;
+    top: 4.6vw;
+}
+#circle{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    height: 6%;
+    width: 6%;
+    top: 49%;
+    left: 47%;
+}
